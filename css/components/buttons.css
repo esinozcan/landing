@@ -1,0 +1,12 @@
+.btn-airbnb {
+    display: inline-block;
+    background-color: #1EDD88;
+    padding: 16px 36px;
+    border-radius: 50px;
+    color: white;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 320px;
+    margin-inline-end: 320px;
+}
+
