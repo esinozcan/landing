@@ -1,27 +1,22 @@
-.banner {
-  color: white;
-  padding: 150px 0;
-  background-size: cover;
-  background-position: center;
+
+#myVideo {
+  height:550px;
+  width: 100%;
+  margin-top:20px;
 }
 
-.banner h1 {
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
-  display: block;
-  font-size: 2em;
-  margin-block-start: 0.67em;
-  margin-block-end: 0.67em;
-  margin-inline-start: 320px;
-  margin-inline-end: 320px;
-  font-weight: bold;
+#secondVideo{
+  height:550px;
+  width: 50%;
 }
 
-.banner p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 320px;
-    margin-inline-end: 320px;
-
+.banner-content{
+ margin-top: 80px;
 }
+
+.banner-content h1{
+ margin-bottom: 50px;
+}
+
+
 

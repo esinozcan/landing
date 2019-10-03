@@ -1,6 +1,211 @@
 
 .container {
-  width: 700px;
-  margin: 20px auto;
+  width:100%;
+  margin:20px auto;
 }
+
+#page-nav {
+  background: white;
+  position: sticky;
+  top: 0;
+  text-align: right;
+  margin-right:30px;
+}
+
+/* Hide Hamburger */
+#page-nav label, #hamburger {
+  display: none;
+}
+
+/* Menu Items */
+#page-nav ul {
+  list-style-type: none;
+}
+
+#page-nav ul li {
+  display: inline-block;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#page-nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+
+.banner{
+ text-align:center;
+}
+
+.benefits-container{
+  text-align:center;
+  height:500px;
+  background-color:#FFFCEA;
+  position:relative;
+}
+
+.benefits-container h2{
+ position:absolute;
+ top: 20px;
+ left: 43%;
+ border-bottom: 3px solid #FFD404;
+ padding-bottom: 10px;
+}
+
+.benefits-container-content{
+ position:absolute;
+ top:100px;
+ display:flex;
+ justify-content: space-evenly;
+ align-items: center;
+}
+
+.learning-container{
+ display:flex;
+}
+
+.learning-content{
+  margin-top:120px;
+  margin-right:50px;
+  height:400px;
+}
+
+.learning-content h1{
+  color:#FBB93A;
+}
+
+.learning-content h2{
+  font-size:32px;
+}
+
+.learning-content p{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  line-height: 1.8;
+}
+
+.testimonial-container{
+  height:500px;
+  background-color:#F7FBFF;
+  display:flex;
+  align-items: center;
+}
+
+.testimonial-container img{
+ margin: 0px 120px 0px 50px;
+ height:400px;
+ border-radius:8px;
+}
+
+.testimonial-container p{
+ margin: 0px 20px 0px 100px;
+ font-size:20px;
+ color: #838791;
+ line-height: 1.5;
+}
+
+@media (max-width: 540px) {
+  .container {
+     width: 300px
+  }
+
+  #page-nav label {
+   display: inline-block;
+    color: black;
+    font-style: normal;
+    font-size: 1.2em;
+    padding: 10px;
+  }
+
+  .logo {
+    display:none;
+  }
+
+  .dash {
+     border-bottom: none;
+  }
+
+  /* Break down menu items into vertical */
+  #page-nav ul li {
+    display: block;
+  }
+  #page-nav ul li {
+    border-bottom: 1px solid #333;
+  }
+
+  #page-nav ul {
+    display: none;
+  }
+
+  #page-nav input:checked ~ ul {
+    display: block;
+  }
+
+   .benefits-container {
+    height:1300px;
+    width:100%;
+  }
+
+  .benefits-container h2 {
+    position: absolute;
+    top: 25px;
+    left: 15%;
+  }
+
+  .benefits-container-content {
+      flex-direction:column;
+      width: 100%;
+  }
+
+  .benefits-container-content .card{
+      width: 80%;
+      margin: 20px 20px;
+  }
+
+    .testimonial-container {
+      flex-direction:column;
+      width: 100%;
+      height: 700px;
+  }
+
+ .testimonial-container p {
+      margin: 20px 20px 0px 20px;
+      text-align: center;
+  }
+
+  .learning-container {
+      flex-direction:column;
+      width: 300px;
+  }
+
+  .testimonial-container img {
+      margin: 20px 100px 20px 100px;
+      width:350px;
+      height:350px;
+  }
+
+   .footer{
+   display:none;
+         }
+
+  #myVideo {
+  height: 350px;
+}
+
+#secondVideo {
+    height: 300px;
+    width: 100%;
+}
+
+.learning-content {
+    /* margin-top: 120px; */
+    margin: 0px 20px;
+    height: 500px;
+    text-align:center;
+    width: 100%;
+}
+
+}
+
 

@@ -1,0 +1,28 @@
+.header{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  height:60px;
+}
+
+.logo{
+  margin:0px 60px;
+  }
+
+.header-content{
+  margin:0px 40px;
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  width:300px;
+}
+
+#page-nav a:hover{
+  color:#FBB93A;
+  /*border-bottom: 2px solid #FBB93A;*/
+}
+
+.dash {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #E4E4E4; /* whichever color you prefer */
+}

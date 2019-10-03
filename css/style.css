@@ -1,5 +1,5 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:300,400,500,700|Lato:300,400,500,700|Lora:300,400,500,700|IBM+Plex+Sans:300,400,500,700|Playfair+Display:300,400,500,700");
 
 /* Fontawesome */
 @import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
@@ -7,20 +7,47 @@
 @import url("components/banner.css");
 @import url("components/cards.css");
 @import url("components/footer.css");
+@import url("components/header.css");
+@import url("container.css");
 
 /* Utilities */
-body {
-  margin: 0;
-  font-family: Open Sans;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-h1, h2, h3, h4 {
-  font-family: Poppins;
+body{
+  font-family: Lato;
+  color:#444444;
 }
+
+.logo h2 {
+  color:#FBB93A;
+  font-family:Playfair Display;
+  font-weight: bolder;
+}
+
+
+p{
+  font-family: Lato;
+}
+
+h1{
+  font-family: Playfair Display;
+  font-size:42px;
+}
+
+h2{
+  font-family: Playfair Display;
+  font-size:26px;
+}
+
 
 a {
   text-decoration: none;
 }
 
 /* Custom design below! */
-
+/*.text-center{
+text-align: center;}
+*/
